@@ -4,7 +4,6 @@ from langchain_community.document_loaders import YoutubeLoader, UnstructuredURLL
 from langchain.prompts import PromptTemplate
 from langchain.chains.summarize import load_summarize_chain
 
-
 # Streamlit App
 st.set_page_config(page_title="LangChain: Summarize Text From Youtube or Website", page_icon="🦜")
 st.title("🦜 LangChain: Summarize Text From Youtube or Website")
